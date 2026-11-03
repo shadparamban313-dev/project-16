@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Electricity Bill Calculator</h1>
+    <form id="bill">
+        <label>customer name</label>
+        <input type="text" id="name">
+        <br><br>
+        <label>customer ID</label>
+        <input type="number" id="custid">
+        <br><br>
+        <label>previous meter reading</label>
+        <input type="number" id="pmreading">
+        <br><br>
+        <label>current meter reading</label>
+        <input type="number" id="cmreading">
+        <br><br>
+        <button type="submit">calculate bill</button>
+
+    </form>
+
+    
+    
+
+    
+    <h3 id="displaynm"></h3>
+    <h3 id="displayid"></h3>
+    <h3 id="displaypm"></h3>
+    <h3 id="displaycm"></h3>
+    <h3 id="display"></h3>
+    <h3 id="displayun"></h3>
+    <hr>
+
+
+
+    <form id="Show">
+        <button type="submit">Show Last Customer</button>
+<h3 id="cuname"></h3>
+<hr>
+    </form>
+    <form id="lastnm">
+        <button type="submit">cancel</button>
+        <h3 id="clear"></h3>
+    </form>
+    
+    
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
